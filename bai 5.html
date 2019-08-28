@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let test= parseInt(prompt("nhap diem bai kiem tra"));
+    let mid=parseInt(prompt("nhap diem giua ky"));
+    let exam=parseInt(prompt("nhap diem cuoi ky"));
+    let tb= (test+mid+exam)/3;
+    if(tb<5){
+        alert("xep loai kem");
+    }else if(tb<=6){
+        alert("xep loai trung binh");
+    }else if(tb<=8){
+        alert("xep loai kha");
+    }else {
+        alert("xep loai gioi")
+    }
+</script>
+</body>
+</html>
